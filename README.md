@@ -31,10 +31,10 @@ Implementation of various robotics sample algorithms for autonomous systems in P
 ## Kalman Filter localization
 
 Estimating the current state of a system given new observations and controls. 
+![Kalman Filter](kf.png)
 
-Ref:
 
-- [PROBABILISTIC ROBOTICS](http://www.probabilistic-robotics.org/)
+Ref:- [PROBABILISTIC ROBOTICS](http://www.probabilistic-robotics.org/)
 
 
  
