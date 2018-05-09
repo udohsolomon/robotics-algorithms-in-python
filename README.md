@@ -32,6 +32,7 @@ Implementation of various robotics sample algorithms for autonomous systems in P
 
 Estimating the current state of a system given new observations and controls. 
 ![Kalman Filter](kf.png)
+![Kalman Filter](kf_graph.png)
 
 
 Ref:- [PROBABILISTIC ROBOTICS](http://www.probabilistic-robotics.org/)
