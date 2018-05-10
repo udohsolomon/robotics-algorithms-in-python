@@ -8,6 +8,7 @@ import os
 import numpy as np
 import math
 import matplotlib.pyplot as plt
+import matplotrecorder
 
 # Estimation parameter of EKF
 Q = np.diag([1.0, 1.0, 1.0, 1.0])**2
@@ -189,7 +190,6 @@ def main():
             plot_covariance_ellipse(xEst, PEst)
             plt.axis("equal")
             plt.grid(True)
-            plt.pause(0.001)
+            plt.pause(0.1)
 
-if __name__ == "__main__":
-    main()    
+matplotrecorder.save_movie("animation.gif", 0.1)   
